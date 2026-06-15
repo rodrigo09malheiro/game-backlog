@@ -23,3 +23,5 @@ App web para gerir a tua lista de jogos pessoal.
 - Dar nota pessoal (estrelas)
 - Remover jogos
 - Tema claro/escuro
+
+## 📋 Sprint 1 concluído
