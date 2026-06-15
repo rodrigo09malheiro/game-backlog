@@ -3,8 +3,8 @@
 App web para gerir a tua lista de jogos pessoal.
 
 ## 🔗 Links
-- **App online:** https://game-backlog-xxxx.vercel.app ← substitui pelo teu link real
-- **Repositório:** https://github.com/rodrigo09malheiro/game-backlog ← substitui pelo teu
+- **App online:** https://game-backlog-eta.vercel.app
+- **Repositório:** https://github.com/rodrigo09malheiro/game-backlog.git
 
 ## 👥 Grupo
 - Rodrigo
