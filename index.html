@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Game Backlog</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <header>
+    <h1>🎮 Game Backlog</h1>
+    <p>Gere a tua lista de jogos pessoal</p>
+  </header>
+
+  <main>
+
+    <section id="search-section">
+      <input type="text" id="search-input" placeholder="Pesquisar jogo..." />
+      <button id="search-btn">Pesquisar</button>
+    </section>
+
+    <section id="results-section">
+      <h2>Resultados</h2>
+      <div id="results-container"></div>
+    </section>
+
+    <section id="filters-section">
+      <h2>O meu Backlog</h2>
+      <div id="filter-buttons">
+        <button class="filter-btn active" data-filter="todos">Todos</button>
+        <button class="filter-btn" data-filter="a-jogar">A Jogar</button>
+        <button class="filter-btn" data-filter="concluido">Concluído</button>
+        <button class="filter-btn" data-filter="abandonado">Abandonado</button>
+      </div>
+    </section>
+
+    <section id="backlog-section">
+      <div id="backlog-container"></div>
+    </section>
+
+  </main>
+
+  <script src="js/api.js"></script>
+  <script src="js/app.js"></script>
+
+</body>
+</html>
